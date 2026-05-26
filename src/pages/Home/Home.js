@@ -8,7 +8,7 @@ const featuredCars = [
     brand: "BMW",
     model: "X7",
     price: "8 500 000",
-    image: "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=400&h=300&fit=crop",
+    image: "http://localhost:5173/img/BMW_X7.webp",
     type: "Luxury SUV"
   },
   {
@@ -16,7 +16,7 @@ const featuredCars = [
     brand: "Tesla",
     model: "Model S",
     price: "7 900 000",
-    image: "https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=400&h=300&fit=crop",
+    image: "http://localhost:5173/img/Tesla_Model_S.webp",
     type: "Electric"
   },
   {
@@ -24,7 +24,7 @@ const featuredCars = [
     brand: "Porsche",
     model: "911",
     price: "9 900 000",
-    image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=400&h=300&fit=crop",
+    image: "http://localhost:5173/img/Porshe_911.webp",
     type: "Sports Car"
   }
 ];  
