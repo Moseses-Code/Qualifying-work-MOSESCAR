@@ -192,4 +192,8 @@
   .admin-btn {
     padding: 10px;
   }
+
+  .textMobile {
+    display: none;
+  }
 }

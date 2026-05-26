@@ -18,28 +18,30 @@ const Header = ({ currentPage, setCurrentPage, isAdmin, handleLogin, handleLogou
             onClick={() => setCurrentPage('home')}
           >
             <span className="nav-icon">🏠</span>
-            Главная
+            <h4 class="textMobile">Главная</h4> 
           </button>
           <button 
             className={`nav-link ${currentPage === 'catalog' ? 'active' : ''}`}
             onClick={() => setCurrentPage('catalog')}
           >
             <span className="nav-icon">🚗</span>
-            Каталог
+            <h4 class="textMobile">Каталог</h4> 
           </button>
           <button 
             className={`nav-link ${currentPage === 'about' ? 'active' : ''}`}
             onClick={() => setCurrentPage('about')}
           >
             <span className="nav-icon">ℹ️</span>
-            О нас
+            <h4 class="textMobile">О нас</h4> 
+            
           </button>
           <button 
             className={`nav-link ${currentPage === 'contacts' ? 'active' : ''}`}
             onClick={() => setCurrentPage('contacts')}
           >
             <span className="nav-icon">📞</span>
-            Контакты
+            <h4 class="textMobile">Контакты</h4> 
+            
           </button>
         </nav>
 
